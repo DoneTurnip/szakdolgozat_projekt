@@ -17,10 +17,6 @@ public class AgentBehaviour : Agent
 
     /*public override void CollectObservations(VectorSensor sensor)
     {
-        sensor.AddObservation(transform.localPosition.x);
-        sensor.AddObservation(transform.localPosition.z);
-
-
     }*/
 
     public override void OnActionReceived(ActionBuffers actions)
