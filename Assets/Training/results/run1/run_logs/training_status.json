@@ -1,0 +1,29 @@
+{
+    "config": {
+        "checkpoints": [
+            {
+                "steps": 2248,
+                "file_path": "results\\run1\\config\\config-2248.onnx",
+                "reward": -29.999998211860657,
+                "creation_time": 1738661979.7993035,
+                "auxillary_file_paths": [
+                    "results\\run1\\config\\config-2248.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2248,
+            "file_path": "results\\run1\\config.onnx",
+            "reward": -29.999998211860657,
+            "creation_time": 1738661979.7993035,
+            "auxillary_file_paths": [
+                "results\\run1\\config\\config-2248.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

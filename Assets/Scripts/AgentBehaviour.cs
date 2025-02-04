@@ -8,11 +8,9 @@ using UnityEngine;
 public class AgentBehaviour : Agent
 {
     public float speed = 5f;
-
     public override void OnEpisodeBegin()
     {
-        transform.localPosition = new Vector3(0, 1f, -8);  
-
+        transform.localPosition = new Vector3(0, 1f, -7);
     }
 
     /*public override void CollectObservations(VectorSensor sensor)
