@@ -7,6 +7,6 @@ public class UpDown : MonoBehaviour
     {
         float y = Mathf.PingPong(Time.time * speed * 6, 1) * 1.5f;
         
-        transform.position=new Vector3(0,y,0);
+        transform.localPosition=new Vector3(transform.localPosition.x,y,transform.localPosition.z);
     }
 }

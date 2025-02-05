@@ -9,6 +9,6 @@ public class HangingBarrierRotation : MonoBehaviour
     {
         float z = Mathf.PingPong(Time.time * speed * 6, 1) * 100 - 50;
 
-        transform.rotation = Quaternion.Euler(0, 3.69f,z);
+        transform.localRotation = Quaternion.Euler(transform.localPosition.x, 3.69f,z);
     }
 }

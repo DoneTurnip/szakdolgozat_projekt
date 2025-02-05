@@ -62,12 +62,17 @@ public class AgentBehaviour : Agent
     {
         if (collision.collider.tag == "Barrier")
         {
-            AddReward(-0.5f);
+            AddReward(-0.6f);
             EndEpisode();
         }
         else if (collision.collider.tag == "Finish")
         {
             AddReward(+1);
+            EndEpisode();
+        }
+        else if (collision.collider.tag == "Wall")
+        {
+            AddReward(-0.6f);
             EndEpisode();
         }
     }

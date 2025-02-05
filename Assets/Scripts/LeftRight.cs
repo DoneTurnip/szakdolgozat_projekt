@@ -7,6 +7,6 @@ public class LeftRight : MonoBehaviour
     {
         float x = Mathf.PingPong(Time.time * speed * 6, 1) * 3 - 1.5f;
 
-        transform.position = new Vector3(x, 1.5f, 0);
+        transform.localPosition = new Vector3(x, 1.5f, transform.localPosition.z);
     }
 }
