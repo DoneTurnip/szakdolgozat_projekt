@@ -1,0 +1,65 @@
+{
+    "config_track4": {
+        "checkpoints": [
+            {
+                "steps": 499961,
+                "file_path": "results\\track4_1\\config_track4\\config_track4-499961.onnx",
+                "reward": -1.349000108136228,
+                "creation_time": 1739175176.6599493,
+                "auxillary_file_paths": [
+                    "results\\track4_1\\config_track4\\config_track4-499961.pt"
+                ]
+            },
+            {
+                "steps": 999970,
+                "file_path": "results\\track4_1\\config_track4\\config_track4-999970.onnx",
+                "reward": 1.6209230880893448,
+                "creation_time": 1739175886.4363165,
+                "auxillary_file_paths": [
+                    "results\\track4_1\\config_track4\\config_track4-999970.pt"
+                ]
+            },
+            {
+                "steps": 1499982,
+                "file_path": "results\\track4_1\\config_track4\\config_track4-1499982.onnx",
+                "reward": 3.6351237678788397,
+                "creation_time": 1739176580.0401385,
+                "auxillary_file_paths": [
+                    "results\\track4_1\\config_track4\\config_track4-1499982.pt"
+                ]
+            },
+            {
+                "steps": 1999945,
+                "file_path": "results\\track4_1\\config_track4\\config_track4-1999945.onnx",
+                "reward": 4.18079021159417,
+                "creation_time": 1739177280.512605,
+                "auxillary_file_paths": [
+                    "results\\track4_1\\config_track4\\config_track4-1999945.pt"
+                ]
+            },
+            {
+                "steps": 2038711,
+                "file_path": "results\\track4_1\\config_track4\\config_track4-2038711.onnx",
+                "reward": 4.079812955889529,
+                "creation_time": 1739177342.1731808,
+                "auxillary_file_paths": [
+                    "results\\track4_1\\config_track4\\config_track4-2038711.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2038711,
+            "file_path": "results\\track4_1\\config_track4.onnx",
+            "reward": 4.079812955889529,
+            "creation_time": 1739177342.1731808,
+            "auxillary_file_paths": [
+                "results\\track4_1\\config_track4\\config_track4-2038711.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

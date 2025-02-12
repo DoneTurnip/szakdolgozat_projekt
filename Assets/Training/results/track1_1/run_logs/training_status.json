@@ -1,0 +1,29 @@
+{
+    "config_track1": {
+        "checkpoints": [
+            {
+                "steps": 50967,
+                "file_path": "results\\track1_1\\config_track1\\config_track1-50967.onnx",
+                "reward": -2.386172389984131,
+                "creation_time": 1739351570.5209415,
+                "auxillary_file_paths": [
+                    "results\\track1_1\\config_track1\\config_track1-50967.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 50967,
+            "file_path": "results\\track1_1\\config_track1.onnx",
+            "reward": -2.386172389984131,
+            "creation_time": 1739351570.5209415,
+            "auxillary_file_paths": [
+                "results\\track1_1\\config_track1\\config_track1-50967.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

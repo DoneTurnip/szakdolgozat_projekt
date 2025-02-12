@@ -130,6 +130,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 783207403642941504, guid: f93ec0099abf3b04089e5803693959d9, type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 5022602860645237092, guid: 71a1bf146c9cc5a449866ec00732ca5c, type: 3}
     - target: {fileID: 2652741517564769735, guid: f93ec0099abf3b04089e5803693959d9, type: 3}
       propertyPath: m_TagString
       value: Wall
