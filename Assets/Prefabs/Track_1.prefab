@@ -1179,8 +1179,8 @@ MonoBehaviour:
   - Barrier
   - Finish
   - Wall
-  m_RaysPerDirection: 5
-  m_MaxRayDegrees: 60
+  m_RaysPerDirection: 9
+  m_MaxRayDegrees: 180
   m_SphereCastRadius: 0.5
   m_RayLength: 100
   m_RayLayerMask:
