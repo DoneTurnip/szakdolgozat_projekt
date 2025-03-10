@@ -9,8 +9,8 @@ public class AgentBehaviourTrack_5 : Agent
     public Transform targetTransfrom;
     public Transform hangingBarrier;
     public Transform upDownBarrier;
-    public Transform leftRightBarrier;
-    public Transform rotatingBarrier;
+    //public Transform leftRightBarrier;
+    //public Transform rotatingBarrier;
     public override void OnEpisodeBegin()
     {
         transform.localPosition = new Vector3(0, 1, -4);
@@ -24,11 +24,11 @@ public class AgentBehaviourTrack_5 : Agent
         sensor.AddObservation(GetComponent<Rigidbody>().velocity);
 
         // rotatingBarrier
-        sensor.AddObservation(rotatingBarrier.eulerAngles.y);
-        sensor.AddObservation(rotatingBarrier.transform.localPosition - transform.localPosition);
+        //sensor.AddObservation(rotatingBarrier.eulerAngles.y);
+        //sensor.AddObservation(rotatingBarrier.transform.localPosition - transform.localPosition);
 
         // leftRightBarrier
-        sensor.AddObservation(leftRightBarrier.localPosition);
+        //sensor.AddObservation(leftRightBarrier.localPosition);
 
         // upDownBarrier
         sensor.AddObservation(upDownBarrier.localPosition);
@@ -47,15 +47,15 @@ public class AgentBehaviourTrack_5 : Agent
         transform.Translate(Vector3.forward * speed * actionSpeed * Time.fixedDeltaTime);
         transform.rotation = Quaternion.Euler(0, actionSteering * 180, 0);
 
-        if (transform.localPosition.z > 7.5f)
+        if (transform.localPosition.z > 8.5f)
         {
             transform.Rotate(0, 90, 0);
         }
 
-        if (transform.localPosition.x > 12.5f)
+       /* if (transform.localPosition.x > 12.5f)
         {
             transform.Rotate(0, -90, 0);
-        }
+        }*/
 
 
         Vector3 directionToGoal = (targetTransfrom.position - transform.position).normalized;
